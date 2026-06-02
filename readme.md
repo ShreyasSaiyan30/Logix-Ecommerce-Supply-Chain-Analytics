@@ -28,7 +28,7 @@ The foundation of this application relies on a highly optimized **Star Schema** 
 
 > **Technical Modeling Note:** The relationship between `orders` and `returns` uses a **Bi-directional cross-filter (`Both`)**. This ensures seamless, synchronized filtering context across both tables, allowing return dimensions (such as return reasons) to instantly slice sales and customer cohorts page-wide without requiring complex DAX bridge measures.
 
-<img src="images/model.png" width="100%">
+<img src="Screenshots/model.png" width="100%">
 
 ---
 
@@ -78,7 +78,7 @@ The dashboard is structured around a modern web-application interface layout eng
 **Target Audience:** Chief Executive Officer (CEO) & Chief Financial Officer (CFO)  
 **Objective:** A high-level view tracking company health, revenue velocity, and macro profit margins.
 
-<img src="images/page1.png" width="100%">
+<img src="Screenshots/page1.png" width="100%">
 
 #### Key Visual Components & Live Metrics:
 *   **Top KPI Banner:** Direct visibility into baseline metrics: **Gross Revenue ($361.67M)**, **Net Profit ($129.56M)**, and **Profit Margin (35.82%)**.
@@ -92,7 +92,7 @@ The dashboard is structured around a modern web-application interface layout eng
 **Target Audience:** Product Managers & Procurement Directors  
 **Objective:** Exposing inventory performance discrepancies, checking retail pricing architectures, and tracking return/defect anomalies.
 
-<img src="images/page2.png" width="100%">
+<img src="Screenshots/page2.png" width="100%">
 
 #### Key Visual Components & Live Metrics:
 *   **Top KPI Banner:** Tracks inventory movement health via **Total Quantity Sold (150K)**, **Total Returns (6K)**, and a global **Return Rate (4.28%)**.
@@ -106,7 +106,7 @@ The dashboard is structured around a modern web-application interface layout eng
 **Target Audience:** Chief Operating Officer (COO) & Supply Chain Managers  
 **Objective:** Identifying fulfillment velocity bottlenecks, tracking carrier efficiency, and maintaining delivery SLA compliance.
 
-<img src="images/page3.png" width="100%">
+<img src="Screenshots/page3.png" width="100%">
 
 #### Key Visual Components & Live Metrics:
 *   **Top KPI Banner:** Monitors fulfillment pipelines via **Total Orders Handled (50K)**, **Avg Days to Ship (5.13 days)**, and a critical **SLA Breach Rate (42.98%)**.
@@ -120,7 +120,7 @@ The dashboard is structured around a modern web-application interface layout eng
 **Target Audience:** Chief Marketing Officer (CMO) & Customer Success Teams  
 **Objective:** Segmenting buyer behaviors, highlighting high-value VIP customer accounts, and mapping regional concentration hubs.
 
-<img src="images/page4.png" width="100%">
+<img src="Screenshots/page4.png" width="100%">
 
 #### Key Visual Components & Live Metrics:
 *   **Top KPI Banner:** Displays **Total Unique Customers (5K)** alongside adaptive, morphing KPI cards mapping buyer concentration metrics.
